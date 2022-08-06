@@ -147,7 +147,7 @@
                         Let’s meet and talk.
                     </h2>
                     <div class="footer_contentbox d-flex flex-xl-row align-items-xl-center justify-content-xl-center flex-column">
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/malinowskiwladek?hide_gdpr_banner=1&background_color=282828&text_color=ffffff&primary_color=41b554'})">
                             Schedule a meeting
                         </button>
                         <div class="footer_contentbox_mail">
@@ -158,7 +158,13 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+

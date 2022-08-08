@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-xl-6 col-md-7">
                         <h1>
-                        Hi! 
+                         Hi! 
                          <br>
                         I’m Wladek Malinowski
                         </h1>
@@ -158,6 +158,28 @@
             </div>
         </div>
     </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup_content popup-close">
+            <div class="popup_content_item">
+                
+                <h2>
+                    Do you need frontend developer?<br>
+                    Let’s meet and talk.
+                </h2>
+                <div class="popup_wrap d-flex flex-xl-row align-items-xl-center justify-content-xl-center flex-column">
+                    <a href="#popup" class="popup-close">+</a>
+                    <button type="button" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/malinowskiwladek?hide_gdpr_banner=1&background_color=282828&text_color=ffffff&primary_color=41b554'})">
+                        Schedule a meeting
+                    </button>
+                    <div class="popup_content_item_mail">
+                        Email: <a href="mailto:malinowskiwladek@gmail.com">malinowskiwladek@gmail.com</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>

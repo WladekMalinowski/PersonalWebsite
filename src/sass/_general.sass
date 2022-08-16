@@ -1,7 +1,6 @@
 * 
     font-family: Montserrat
 
-
 body
     background-color: #282828
 
@@ -16,32 +15,28 @@ body
     &_subhead
         button
             margin-top: 4px
-
-    &_active
-        visibility: visible
-        opacity: 1
-        animation-name: navbar
-        animation-duration: 0.5s
-    &_subhead
         .btn
             --bs-btn-focus-box-shadow: 0
             background: #41B554
             border: 0px
             border-radius: 0px
-            width: 238px
             height: 56px
             padding: 17px 26px
             font-weight: 500
             font-size: 17px
             line-height: 21px
             color: #FFFFFF
-            &_cv_active
-                box-shadow: 0px 0px 0px 8px rgba(65, 181, 84, 0.3)
             img
                 margin-right: 17px
             .btn:hover
                 background: #41B554
-                border: 0
+                border: 0    
+    &_active
+        visibility: visible
+        opacity: 1
+        animation-name: navbar
+        animation-duration: 0.5s
+        box-shadow: 0px 25px 50px 0px rgba(29, 29, 29, 1)
     &_mail
         margin-left: 30px
         font-weight: 500
@@ -81,9 +76,6 @@ body
             font-size: 17px
             line-height: 21px
             color: #FFFFFF
-            &_cv_active
-                box-shadow: 0px 0px 0px 8px rgba(65, 181, 84, 0.3)
-
             img
                 margin-right: 17px
             .btn:hover
@@ -148,7 +140,6 @@ body
                 animation-duration: 1.5s
                 &::before
                     color: #282828
-                    
 .job
     padding: 107px 0 136px 0
     h2
@@ -280,7 +271,6 @@ footer
             top: -220px
             transform: rotate(45deg)
             opacity: 0.3
-        
     &_open
         visibility: visible
         opacity: 1

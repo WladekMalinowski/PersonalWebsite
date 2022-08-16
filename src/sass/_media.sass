@@ -1,4 +1,9 @@
 @media (max-width: 1200px)
+    .navbar
+        &_subhead
+            .btn
+                .download_btn
+                    display: none
     .head
         padding: 100px 0 100px
         &_bg
@@ -20,14 +25,29 @@
             img
                 width: 300px
     .job
+        padding: 100px 00 100px
         &_item
+            .container_logo
+                background-color: #1d1d1d
+                margin-bottom: 20px
+                display: flex
+                justify-content: center
+                img
+                    margin-right: 0px
             &_position
                 margin-left: 0px
                 font-size: 18px
                 line-height: 37px
             &_company
                 font-size: 25px
+    footer
+        .footer_contentbox_mail
+            margin-top: 20px
+            margin-left: 0px
 @media (max-width: 576px)
+    .navbar
+        &_active
+        display: none
     .head
         padding: 50px 0
         &_bg
@@ -46,8 +66,15 @@
         &_contentbox
             margin-top: 30px
         &_item
+            .container_logo
+                background-color: #1d1d1d
+                display: flex
+                justify-content: center
+                img
+                    margin-right: 0px
+            &_position
             img
-                margin: 0 auto
+                margin: 0
             &_company
                 margin-top: 20px
     .work
@@ -63,7 +90,6 @@
                     font-size: 9px
     footer
         padding: 50px 0
-        height: 550px
         h2
             font-size: 30px
         .footer_contentbox_mail

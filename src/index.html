@@ -17,10 +17,10 @@
     <div class="navbar" id="navbar">
         <div class="container">
             <div class="navbar_btnUp"><a href="#"><img src="icon/btn_up.svg" alt="up"></a></div>
-        <div class="navbar_subhead d-flex flex-xl-row align-items-xl-center flex-md-column align-items-md-start flex-column">
+        <div class="navbar_subhead d-flex flex-xl-row align-items-xl-center flex-md-row align-items-md-center flex-column">
             <button type="button" class="btn btn-primary d-flex align-items-center" id="btnCvNav">
                 <img src="icon/cv.svg" alt="icon_cv">
-                Download My CV
+                <span class="download_btn">Download </span>My CV
             </button>
             <div class="navbar_mail">Email:<a href="mailto:malinowskiwladek@gmail.com">malinowskiwladek@gmail.com</a></div>
         </div>
@@ -87,9 +87,11 @@
             <div class="row">
                 <div class="col-xl-12 col-12">
                     <h2>Recent Job Experience</h2>
-                    <div class="job_contentbox d-flex flex-xl-row align-items-xl-center flex-column align-items-center">
+                    <div class="job_contentbox d-flex flex-xl-row align-items-xl-center flex-column">
                         <div class="job_item">
-                            <img src="img/calendar_logo.png" alt="logo">
+                            <div class="container_logo">
+                                <img src="img/calendar_logo.png" alt="logo">
+                            </div>
                         </div>
                         <div class="job_item">
                             <div class="d-flex flex-xl-row flex-column">
@@ -146,7 +148,7 @@
                         Do you need frontend developer?<br>
                         Let’s meet and talk.
                     </h2>
-                    <div class="footer_contentbox d-flex flex-xl-row align-items-xl-center justify-content-xl-center flex-column">
+                    <div class="footer_contentbox d-flex flex-xl-row align-items-xl-center justify-content-xl-center flex-column align-items-center ">
                         <button type="button" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/malinowskiwladek?hide_gdpr_banner=1&background_color=282828&text_color=ffffff&primary_color=41b554'})">
                             Schedule a meeting
                         </button>
@@ -159,7 +161,7 @@
         </div>
     </footer>
 
-    <div class="popup" id="popup">
+    <!-- <div class="popup" id="popup">
         <div class="popup_content popup-close">
             <div class="popup_content_item">
                 
@@ -167,7 +169,7 @@
                     Do you need frontend developer?<br>
                     Let’s meet and talk.
                 </h2>
-                <div class="popup_wrap d-flex flex-xl-row align-items-xl-center justify-content-xl-center flex-column">
+                <div class="popup_wrap d-flex flex-xl-row align-items-xl-center justify-content-xl-center flex-row align-items-center">
                     <a href="#popup" class="popup-close">+</a>
                     <button type="button" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/malinowskiwladek?hide_gdpr_banner=1&background_color=282828&text_color=ffffff&primary_color=41b554'})">
                         Schedule a meeting
@@ -179,7 +181,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
